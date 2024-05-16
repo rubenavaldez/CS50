@@ -1,0 +1,5 @@
+CS50.ai https://cs50.ai/chat
+
+Function and Variables
+
+    
