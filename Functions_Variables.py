@@ -45,8 +45,9 @@ Using f string (format string)
 String methods
 documentation https://docs.python.org/3/library/stdtypes.html#string-methods
 """
-# remove white space 
+# remove white space from the left and the right 
 # name = name.strip() 
+# see lstrip / rstrip to remove from just left or just right
 
 # capitalize the first letter 
 # name = name.capitalize() 
@@ -58,8 +59,26 @@ documentation https://docs.python.org/3/library/stdtypes.html#string-methods
 # name = name.strip().title()
 
 # chain methods to input
-name = input("What's your name? ").strip().title()  
-print(f"Hello, {name}")
+# name = input("What's your name? ").strip().title()  
+# print(f"Hello, {name}")
+
+# Split user's name into first name and last name
+# first, last = name.split(" ")
+# print(f"Hello, {first}")
+
+"""
+Integers
+"""
+# no decimal points in an integer 
+#  operators: + + * / %
+
+
+
+
+
+
+
+
 
 
 
