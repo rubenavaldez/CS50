@@ -2,4 +2,37 @@ CS50.ai https://cs50.ai/chat
 
 Function and Variables
 
-    
+code.cs50.io
+my environment https://scaling-giggle-g7p74v9xpj6cv4p9.github.dev/?autoStart=true&folder=%2Fworkspaces%2F48387594&vscodeChannel=stable
+
+linux commands 
+    ls : list files 
+    cp : copy a file 
+    mv : move a file / rename 
+    mkdir : create a directory 
+    cd : change directory
+    rmdir : remove a directory 
+    clear : clear terminal window 
+        # ctrl L also clears the terminal window 
+
+
+cp hello.py goodbye.py
+mv goodbye.py farewell.py
+rm farewell.py
+
+mkdir folder
+
+ls 
+    folder/  hello.py  #folders appear with forward slash /
+
+mv farewell.py ..
+    move to parent folder 
+
+cd 
+    when byitself will bring you back to the home directory
+
+-----------------
+Variables 
+
+
+
