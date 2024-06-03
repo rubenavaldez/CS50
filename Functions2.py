@@ -10,10 +10,15 @@
 return values 
 '''
 
-def greet(input):
-    if "hello" in input:
-        return "hello, there"
-    else:
-        return "I'm not sure what you mean"
+# def greet(input):
+#     if "hello" in input:
+#         return "hello, there"
+#     else:
+#         return "I'm not sure what you mean"
 
-print(greet("hello, computer"))
+# greeting = greet("hello, computer")
+
+# print("Hm, ", greeting + " Carter")
+
+
+
