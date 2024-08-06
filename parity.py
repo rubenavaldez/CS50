@@ -5,12 +5,19 @@ def main()-> str:
     else:
         print("Odd")
 
+# def is_even(n)-> bool:
+#     if n % 2 ==0:
+#         return True
+#     else:
+#         return False
+
+# def is_even(n)-> bool:
+#     return True if n % 2 == 0 else False
+
+# def is_even(n)-> bool:
+#     return n % 2 == 0 
+
 def is_even(n)-> bool:
-    if n % 2 ==0:
-        return True
-    else:
-        return False
-
-
+    return n % 2 == 0 
 
 main()
