@@ -37,3 +37,7 @@ Variables
 
 -----------------
 Loops
+---------
+
+Exceptions 
+    Syntax errors are up to me to solve 
