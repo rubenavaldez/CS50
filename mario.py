@@ -49,19 +49,34 @@
 
 #         print() # print blank new line
 # main()
-def main():
-    print_square(3)
+# def main():
+#     print_square(3)
 
-def print_square(size):
+# def print_square(size):
 
-    # for each row in square
-    for i in range(size):
-        print_row(size)
+#     # for each row in square
+#     for i in range(size):
+#         print_row(size)
 
         
-def print_row(width):
-    print("#" * width)
+# def print_row(width):
+#     print("#" * width)
 
 
-main()
+# main()
 
+# debugging
+
+def main():
+    height =int(input("Height: "))
+    pyramid(height)
+
+def pyramid(n):
+    for i in range(n):
+        print("#" * (i + 1))
+
+if __name__ == "__main__":
+    main()
+    
+## step into : move into a function you created 
+# step over : move to the next line
